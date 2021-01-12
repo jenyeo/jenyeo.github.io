@@ -1,0 +1,368 @@
+.navbar {
+    font-family: "Georgia";
+    margin-top: 20px;
+    margin-bottom: 20px;
+    /*margin-left: 190px;*/
+    /*margin-right: 150px;*/
+    /*width: 75%;*/
+
+
+}
+
+.navbar-brand{
+    font-size: 50px;
+}
+
+
+
+.body {
+    font-family: Courier;
+    color: #c7c7c7;
+}
+
+.h2style {
+    text-align: center;
+    font-family: Courier;
+}
+
+.h5style {
+    text-align: center;
+    font-family: cursive;
+}
+
+.images, .bioimg{
+    object-fit: cover;
+    width: 350px;
+    height: 350px;
+    padding-top: 25px;
+    padding-left: 15px;
+    padding-right: 15px;
+
+}
+.images:hover {
+    cursor: pointer;
+}
+
+
+.modalexpandimage {
+    object-fit: cover;  /* preserving the aspect ratio, and also filling in the space, like this:*/
+    width: 450px;
+    height: 350px;
+    padding: 15px;
+}
+
+.modalimage {
+    text-align: center;
+}
+
+#image1 {
+    object-position: 25% 100%;
+}
+
+#gpsSMALLimage {
+    object-position: 50% 70%;
+}
+
+#muscleSMALLimage {
+    object-position: 100% 80%;
+}
+
+#pofaSMALLimage {
+    object-position: 60% 100%;
+}
+
+.tablestyle {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.tdstyle {
+    padding: 45px;
+    padding-top: 10px;
+    text-align: center;
+}
+
+#tableModal, #dimsumModal, #solarModal, #gpsModal,
+#phoneModal, #muscleModal {
+    font-family: Times;
+}
+
+
+.descstyle {
+    text-align: center;
+    font-family: Times;
+}
+
+
+.hrstyle {
+    width: 75%;
+}
+
+.shortHRstyle {
+    width: 12%;
+    margin-top: 0em;
+}
+
+.footertablestyle {
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.copyrightstyle {
+    font-family: Times;
+    float: left;
+}
+
+.socialsStyle {
+    float: right;
+}
+
+
+
+/*.container-fluid{*/
+/*    width:100%;*/
+/*}*/
+
+
+
+.aboutMEtablestyle {
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.biostyle {
+    padding: 20px;
+    font-family: Georgia;
+    font-size: 15px;
+}
+
+.featuredtitlesize {
+    text-align: center;
+    font-family: Times;
+    height: 10%;
+    width: 60%;
+}
+
+.featuredtitlestyle {
+    text-align: center;
+    font-family: cursive;
+}
+
+.blog {
+    width: 75%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.btn-secondary {
+    color: white;
+    padding: 5px;
+    margin: 5px;
+    width: 100%;
+    text-transform: lowercase;
+}
+
+.japanvidyoutube {
+    width: 480px;
+    height: 270px;
+    object-fit: cover;
+    padding: 15px;
+}
+
+.giphy-embed {
+    width: 480px;
+    height: 270px;
+    object-fit: cover;
+    padding: 15px;
+}
+
+.btn-link {
+    color: black;
+    text-transform: lowercase;
+}
+
+.storetableheader {
+    text-align: center;
+    font-size: 30px;
+    font-family: Times;
+}
+
+.storeimgVERT {
+    width: 350px;
+}
+
+.storeimgHORIZ {
+    width: 500px;
+}
+
+.pricestyle {
+    color: steelblue;
+}
+
+.formstyle {
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Times;
+}
+
+.productTitle {
+    font-size: 20px;
+    text-transform: lowercase;
+}
+
+.productDESC {
+    color: slategrey;
+    text-transform: lowercase;
+}
+
+.shopinfo {
+    text-align: center;
+    font-family: Times;
+    color: slategrey;
+}
+
+#paypal-button-container {
+    width: 75%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#fullNameNull, #emailNull, #quantityerror, #contactfullNameNull,
+#contactemailNull, #contactsubjectNull, #addresserror,
+#cityerror, #stateerror, #ziperror, #contactmessageNull, #contacterror {
+    color: red;
+    font-size: 12px;
+}
+
+.divwidthstyle {
+    width: 75%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.btn-primary {
+    text-transform: uppercase;
+}
+
+/* https://bootsnipp.com/snippets/7KaXj */
+.btn-2 {
+    flex: 1 1 auto;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    /* text-shadow: 0px 0px 10px rgba(0,0,0,0.2);*/
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+}
+
+.btn-2:hover {
+    background-position: right center; /* change the direction of the change here */
+}
+
+.btn-2 {
+    background-image: linear-gradient(to right, #fbc2eb 0%, #a6c1ee 51%, #fbc2eb 100%);
+}
+
+.mb-4 {
+    width: 75%;
+    margin-right: auto;
+    margin-left: auto;
+    font-family: Times;
+}
+
+
+#paypal-button-container {
+    width: 30%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.h4style {
+    text-align: center;
+    font-family: Cursive;
+}
+
+#resultElement2 {
+    color: green;
+    font-size: 18px;
+}
+
+.japanvid {
+    width: 560px;
+    height: 315px;
+    align: center;
+    padding: 15px;
+}
+
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+    }
+}
+
+
+.column {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.row {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.submitbutton {
+    text-align: center;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.errorblogpost {
+    text-align: center;
+    color: red;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.blogrowinserted {
+    text-align: center;
+    color: green;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.phpmedia {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.timestampstyle {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    text-transform: uppercase;
+}
+
+
+.my-4 {
+    font-family: cursive;
+}
