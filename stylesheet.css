@@ -5,15 +5,11 @@
     /*margin-left: 190px;*/
     /*margin-right: 150px;*/
     /*width: 75%;*/
-
-
 }
 
 .navbar-brand{
     font-size: 50px;
 }
-
-
 
 .body {
     font-family: Courier;
@@ -34,15 +30,24 @@
     object-fit: cover;
     width: 350px;
     height: 350px;
-    padding-top: 25px;
+    padding-top: 15px;
     padding-left: 15px;
     padding-right: 15px;
-
+    padding-bottom: 15px;
 }
+
+.bioimg {
+    border-radius: 50%;
+}
+
 .images:hover {
     cursor: pointer;
 }
 
+.dimsummodalimages {
+    overflow: hidden;
+    text-align: center;
+}
 
 .modalexpandimage {
     object-fit: cover;  /* preserving the aspect ratio, and also filling in the space, like this:*/
@@ -51,6 +56,25 @@
     padding: 15px;
 }
 
+.modalexpandimage2 {
+    object-fit: cover;  /* preserving the aspect ratio, and also filling in the space, like this:*/
+    width: 350px;
+    padding: 15px;
+}
+
+.modalexpandimage3  {
+    object-fit: cover;  /* preserving the aspect ratio, and also filling in the space, like this:*/
+    width: 550px;
+    padding: 15px;
+}
+
+.modalexpandimage4  {
+    object-fit: cover;  /* preserving the aspect ratio, and also filling in the space, like this:*/
+    width: 430px;
+    padding: 15px;
+}
+
+
 .modalimage {
     text-align: center;
 }
@@ -58,6 +82,10 @@
 #image1 {
     object-position: 25% 100%;
 }
+
+/*#arousalhrfImg {*/
+/*    border: 1px solid black;*/
+/*}*/
 
 #gpsSMALLimage {
     object-position: 50% 70%;
@@ -82,8 +110,8 @@
     text-align: center;
 }
 
-#tableModal, #dimsumModal, #solarModal, #gpsModal,
-#phoneModal, #muscleModal {
+#coop1arousalModal, #coop2CAAModal, #lowcosttomoModal, #tableModal, #dimsumModal, #solarModal, #gpsModal,
+#phoneModal, #muscleModal, #webportModal, #GogglesModal, #brainscatcoeffModal {
     font-family: Times;
 }
 
@@ -135,7 +163,150 @@
 .biostyle {
     padding: 20px;
     font-family: Georgia;
-    font-size: 15px;
+    font-size: 20px;
+    line-height: 2;
+}
+
+.biostyle2 {
+    padding: 20px;
+    font-family: Georgia;
+    font-size: 17px;
+    line-height: 2;
+}
+
+.biostyle3 {
+    font-family: Georgia;
+    font-size: 16px;
+    line-height: 2;
+    text-align: center;
+}
+
+.locationtitle {
+    padding-bottom: 20px;
+}
+
+
+
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+    grid-template-rows: repeat(11, 5vw);
+    grid-gap: 1.5rem;
+}
+
+.gallery__img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.gallery__item--1 {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 4;
+
+}
+
+.gallery__item--2 {
+    grid-column-start: 4;
+    grid-column-end: 6;
+    grid-row-start: 1;
+    grid-row-end: 4;
+
+}
+
+.gallery__item--3 {
+    grid-column-start: 6;
+    grid-column-end: 10;
+    grid-row-start: 1;
+    grid-row-end: 8;
+}
+
+.gallery__item--4 {
+    grid-column-start: 1;
+    grid-column-end: 6;
+    grid-row-start: 4;
+    grid-row-end: 8;
+
+}
+
+.gallery__item--5 {
+    grid-column-start: 1;
+    grid-column-end: 6;
+    grid-row-start: 8;
+    grid-row-end: 12;
+
+}
+
+.gallery__item--6 {
+    grid-column-start: 6;
+    grid-column-end: 10;
+    grid-row-start: 8;
+    grid-row-end: 12;
+}
+
+
+.container2{
+    width: 60%;
+    margin: auto;
+}
+
+.gallery2 {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(10, 5vw);
+    grid-gap: 2rem;
+}
+
+.gallery2__img {
+    width: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.gallery2__item--1 {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 4;
+}
+
+.gallery2__item--2 {
+    grid-column-start: 4;
+    grid-column-end: 7;
+    grid-row-start: 1;
+    grid-row-end: 7;
+}
+
+.gallery2__item--3 {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 4;
+    grid-row-end: 7;
+
+}
+
+.gallery2__item--4 {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 7;
+    grid-row-end: 9;
+
+}
+
+.gallery2__item--5 {
+    grid-column-start: 4;
+    grid-column-end: 7;
+    grid-row-start: 7;
+    grid-row-end: 9;
+
+}
+
+.youtubevid {
+    text-align: center;
 }
 
 .featuredtitlesize {
