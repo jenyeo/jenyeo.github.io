@@ -1,0 +1,939 @@
+.navbar {
+  font-family: "Georgia";
+  margin-top: 20px;
+  margin-bottom: 20px;
+  /*margin-left: 190px;*/
+  /*margin-right: 150px;*/
+  /*width: 75%;*/
+}
+
+.navbar-brand {
+  font-size: 50px;
+}
+
+.navbar-collapse{
+  text-align: center;
+}
+
+.body{
+  font-family: Georgia;
+  color: #c7c7c7;
+}
+
+.bodyfont {
+  font-family: Georgia;
+}
+
+.h2style {
+  text-align: center;
+  font-family: Georgia;
+}
+
+.h5style {
+  text-align: center;
+  font-family: Georgia;
+}
+
+.images {
+  object-fit: cover;
+  width: 350px;
+  height: 350px;
+  padding: 15px;
+}
+
+.bioimg {
+  object-fit: cover;
+  width: 350px;
+  height: 350px;
+  padding: 15px;
+  border-radius: 50%;
+}
+
+.images:hover {
+  cursor: pointer;
+}
+
+.dimsummodalimages {
+  overflow: hidden;
+  text-align: center;
+}
+
+.modalexpandimage {
+  object-fit: cover;
+  /* preserving the aspect ratio, and also filling in the space, like this:*/
+  width: 450px;
+  height: 350px;
+  padding: 15px;
+}
+
+.modalexpandimage2 {
+  object-fit: cover;
+  /* preserving the aspect ratio, and also filling in the space, like this:*/
+  width: 350px;
+  padding: 15px;
+}
+
+.modalexpandimage3 {
+  object-fit: cover;
+  /* preserving the aspect ratio, and also filling in the space, like this:*/
+  width: 550px;
+  padding: 15px;
+}
+
+.modalexpandimage4 {
+  object-fit: cover;
+  /* preserving the aspect ratio, and also filling in the space, like this:*/
+  width: 430px;
+  padding: 15px;
+}
+
+.modalimage {
+  text-align: center;
+}
+
+#image1 {
+  object-position: 25% 100%;
+}
+
+
+#gpsSMALLimage {
+  object-position: 50% 70%;
+}
+
+#muscleSMALLimage {
+  object-position: 100% 80%;
+}
+
+#pofaSMALLimage {
+  object-position: 60% 100%;
+}
+
+.tablestyle {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.tdstyle {
+  padding: 45px;
+  padding-top: 10px;
+  text-align: center;
+}
+
+#coop1arousalModal, #coop2CAAModal, #lowcosttomoModal, #tableModal, #dimsumModal, #solarModal, #gpsModal,
+#phoneModal, #muscleModal, #webportModal, #GogglesModal, #brainscatcoeffModal {
+  font-family: Georgia;
+}
+
+.descstyle {
+  text-align: center;
+  font-family: Georgia;
+  color: black;
+  text-decoration: none;
+}
+
+.bottomnavarrowsleft {
+  font-family: Georgia;
+  color: black;
+  display: inline-block;
+  float: left;
+}
+
+.bottomnavarrowsright {
+  font-family: Georgia;
+  color: black;
+  display: inline-block;
+  float: right;
+}
+
+.bottomarrow {
+  font-size: 25px;
+}
+
+.hrstyle {
+  width: 75%;
+}
+
+.shortHRstyle {
+  width: 12%;
+  margin-top: 0em;
+}
+
+.footertablestyle {
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.copyrightstyle {
+  font-family: Georgia;
+  float: left;
+}
+
+.socialsStyle {
+  float: right;
+}
+
+/*.container-fluid{*/
+/*    width:100%;*/
+/*}*/
+.aboutMEtablestyle {
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.biostyle {
+  padding: 20px;
+  font-family: Georgia;
+  font-size: 20px;
+  line-height: 2;
+  text-align: justify;
+}
+
+.biostyle2 {
+  padding: 20px;
+  font-family: Georgia;
+  font-size: 17px;
+  line-height: 2;
+}
+
+.biostyle3 {
+  font-family: Georgia;
+  font-size: 16px;
+  line-height: 2;
+  text-align: center;
+}
+
+.locationtitle {
+  padding-bottom: 20px;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(9, 1fr);
+  grid-template-rows: repeat(11, 5vw);
+  grid-gap: 1.5rem;
+}
+
+.gallery__img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.gallery__item--1 {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 4;
+}
+
+.gallery__item--2 {
+  grid-column-start: 4;
+  grid-column-end: 6;
+  grid-row-start: 1;
+  grid-row-end: 4;
+}
+
+.gallery__item--3 {
+  grid-column-start: 6;
+  grid-column-end: 10;
+  grid-row-start: 1;
+  grid-row-end: 8;
+}
+
+.gallery__item--4 {
+  grid-column-start: 1;
+  grid-column-end: 6;
+  grid-row-start: 4;
+  grid-row-end: 8;
+}
+
+.gallery__item--5 {
+  grid-column-start: 1;
+  grid-column-end: 6;
+  grid-row-start: 8;
+  grid-row-end: 12;
+}
+
+.gallery__item--6 {
+  grid-column-start: 6;
+  grid-column-end: 10;
+  grid-row-start: 8;
+  grid-row-end: 12;
+}
+
+.container2 {
+  width: 60%;
+  margin: auto;
+}
+
+.gallery2 {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(10, 5vw);
+  grid-gap: 2rem;
+}
+
+.gallery2__img {
+  width: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.gallery2__item--1 {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 4;
+}
+
+.gallery2__item--2 {
+  grid-column-start: 4;
+  grid-column-end: 7;
+  grid-row-start: 1;
+  grid-row-end: 7;
+}
+
+.gallery2__item--3 {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 4;
+  grid-row-end: 7;
+}
+
+.gallery2__item--4 {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 7;
+  grid-row-end: 9;
+}
+
+.gallery2__item--5 {
+  grid-column-start: 4;
+  grid-column-end: 7;
+  grid-row-start: 7;
+  grid-row-end: 9;
+}
+
+.youtubevid {
+  text-align: center;
+}
+
+.featuredtitlesize {
+  text-align: center;
+  font-family: Georgia;
+  height: 10%;
+  width: 60%;
+}
+
+.featuredtitlestyle {
+  text-align: center;
+  font-family: Georgia;
+}
+
+.blog {
+  width: 75%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.btn-secondary {
+  color: white;
+  padding: 5px;
+  margin: 5px;
+  width: 100%;
+  text-transform: lowercase;
+}
+
+.japanvidyoutube {
+  width: 480px;
+  height: 270px;
+  object-fit: cover;
+  padding: 15px;
+}
+
+.giphy-embed {
+  width: 480px;
+  height: 270px;
+  object-fit: cover;
+  padding: 15px;
+}
+
+.btn-link {
+  color: black;
+  text-transform: lowercase;
+}
+
+.storetableheader {
+  text-align: center;
+  font-size: 30px;
+  font-family: Georgia;
+}
+
+.storeimgVERT {
+  width: 350px;
+}
+
+.storeimgHORIZ {
+  width: 500px;
+}
+
+.pricestyle {
+  color: steelblue;
+}
+
+.formstyle {
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: Georgia;
+}
+
+.productTitle {
+  font-size: 20px;
+  text-transform: lowercase;
+}
+
+.productDESC {
+  color: slategrey;
+  text-transform: lowercase;
+}
+
+.shopinfo {
+  text-align: center;
+  font-family: Georgia;
+  color: slategrey;
+}
+
+#paypal-button-container {
+  width: 75%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#fullNameNull, #emailNull, #quantityerror, #contactfullNameNull,
+#contactemailNull, #contactsubjectNull, #addresserror,
+#cityerror, #stateerror, #ziperror, #contactmessageNull, #contacterror {
+  color: red;
+  font-size: 12px;
+}
+
+.divwidthstyle {
+  width: 75%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.btn-primary {
+  text-transform: uppercase;
+}
+
+/* https://bootsnipp.com/snippets/7KaXj */
+.btn-2 {
+  flex: 1 1 auto;
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  /* text-shadow: 0px 0px 10px rgba(0,0,0,0.2);*/
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+}
+
+.btn-2:hover {
+  background-position: right center;
+  /* change the direction of the change here */
+}
+
+.btn-2 {
+  background-image: linear-gradient(to right, #fbc2eb 0%, #a6c1ee 51%, #fbc2eb 100%);
+}
+
+.mb-4 {
+  width: 75%;
+  margin-right: auto;
+  margin-left: auto;
+  font-family: Georgia;
+}
+
+#paypal-button-container {
+  width: 30%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.h4style {
+  text-align: center;
+  font-family: Georgia;
+}
+
+#resultElement2 {
+  color: green;
+  font-size: 18px;
+}
+
+.japanvid {
+  width: 560px;
+  height: 315px;
+  align: center;
+  padding: 15px;
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+
+.column {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.row {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.submitbutton {
+  text-align: center;
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.errorblogpost {
+  text-align: center;
+  color: red;
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.blogrowinserted {
+  text-align: center;
+  color: green;
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.phpmedia {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.timestampstyle {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  text-transform: uppercase;
+}
+
+.my-4 {
+  font-family: Georgia;
+}
+
+.sled {
+  text-align: center;
+}
+
+.simusewholeassemimg {
+  border-style: solid;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+
+.itemheaders {
+  font-family: Georgia;
+  border-style: solid;
+  vertical-align: top;
+}
+
+
+.airimg{
+  display: inline;
+  margin-left: auto;
+  margin-right: auto;
+  object-fit: cover;
+  width: 350px;
+  height: 350px;
+  padding: 15px;
+  border-style: solid;
+}
+
+
+.air {
+ margin: auto;
+ text-align: center;
+ padding: 15px;
+}
+
+.airimglong {
+  display: inline;
+  margin-left: auto;
+  margin-right: auto;
+  object-fit: cover;
+  width: 500px;
+  padding: 15px;
+}
+
+.airimgsm {
+  display: inline;
+  margin-left: auto;
+  margin-right: auto;
+  object-fit: cover;
+  width: 350px;
+  height: 350px;
+  padding: 10px;
+}
+
+.sectionheader, .finalproductheader  {
+float: left;
+border-style: solid;
+}
+
+
+.finalproductheader {
+  width: 50%;
+}
+
+.finalproductblurb {
+  width: 25%;
+}
+
+.contenttable {
+border-style: solid;
+margin-left: auto;
+margin-right: auto;
+vertical-align: text-top;
+text-align:top;
+width: 75%;
+}
+
+.projecttitle, .projecttitleLONG {
+text-align: center;
+color: #429EBD;
+font-family: Georgia;
+}
+
+.projecttitle2 {
+  text-align: center;
+  font-family: Georgia;
+  color: #429EBD;
+}
+
+.projecttitle2div {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+@media (min-width: 1200px) {
+  .projecttitle {
+    font-size: 35px;
+  }
+  .projecttitleLONG {
+    font-size: 25px;
+  }
+
+  .imagesforhomepage {
+    padding: 0px;
+  }
+}
+/* If the screen size is smaller than 1200px, set the font-size to 80px */
+@media (max-width: 1199.98px) {
+  .projecttitle {
+    font-size: 25px;
+  }
+  .projecttitleLONG {
+    font-size: 20px;
+  }
+
+  .imagesforhomepage {
+    padding: 5px;
+  }
+}
+
+.sectionrow {
+  padding-bottom: 15px;
+  padding-top: 15px;
+}
+
+
+
+.airtestimage {
+display: inline;
+margin-left: auto;
+margin-right: auto;
+object-fit: cover;
+width: 300px;
+height: 300px;
+}
+
+.introcontent, .skillscontent {
+  border-style: solid;
+}
+
+.sectionrow {
+  padding-bottom: 15px;
+}
+
+.tagblock {
+  display: block;
+}
+
+.bondingimglarge {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+}
+
+.bondingimg {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  padding: 5px;
+}
+
+
+.imgs {
+  object-fit: cover;
+  width: 350px;
+  height: 350px;
+  padding: 15px;
+}
+
+.test2 {
+  border: solid cyan;
+}
+
+
+.fourbyfourimg {
+  display: inline;
+  margin-left: auto;
+  margin-right: auto;
+  object-fit: cover;
+  width: 250px;
+  height: 250px;
+  padding: 5px;
+}
+
+.fourbyfourimglarge {
+  display: inline;
+  margin-left: auto;
+  margin-right: auto;
+  object-fit: cover;
+  width: 350px;
+  height: 350px;
+  padding: 5px;
+}
+
+.solarcadimg{
+  display: inline;
+  margin-left: auto;
+  margin-right: auto;
+  object-fit: cover;
+  width: 400px;
+}
+
+.pressfitimgbreak {
+  height: 1px;
+  background-color:  #429EBD;
+}
+
+
+.simusewholeassemimg2 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+
+.logoimg{
+  display: inline;
+  margin-left: auto;
+  margin-right: auto;
+  object-fit: cover;
+  width: 200px;
+}
+
+.logodiv {
+  text-align: center;
+}
+
+
+.sectitle {
+  color: #429EBD;
+}
+
+.skillscontent, .sectionconent {
+   text-align: justify;
+}
+
+.thirdsledUL {
+  margin-top: -10px;
+}
+
+.bikeimglong {
+  object-fit: cover;
+  /* preserving the aspect ratio, and also filling in the space, like this:*/
+  width: 500px;
+  padding: 10px;
+}
+
+.phoneimg {
+  object-fit: cover;
+  /* preserving the aspect ratio, and also filling in the space, like this:*/
+  width: 250px;
+  height: 400px;
+  padding: 10px;
+}
+
+.activedropdownitem {
+  font-weight: bold;
+}
+
+
+
+/* home page image hover section */
+.content {
+    position: relative;
+    width: 90%;
+    max-width: 400px;
+    margin: auto;
+    overflow: hidden
+}
+
+.content .content-overlay {
+    background: rgba(66, 158, 189, 1);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0;
+    -webkit-transition: all 0.4s ease-in-out 0s;
+    -moz-transition: all 0.4s ease-in-out 0s;
+    transition: all 0.4s ease-in-out 0s
+
+}
+
+
+
+.content:hover .content-overlay {
+    opacity: 0.9;
+    cursor: pointer;
+    pointer-events: none;
+}
+
+.content-image {
+    width: 100%
+}
+
+.content-details {
+    position: absolute;
+    text-align: center;
+    padding-left: 1em;
+    padding-right: 1em;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    opacity: 0;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    -moz-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+
+}
+
+.content:hover .content-details {
+    top: 50%;
+    left: 50%;
+    opacity: 1;
+}
+
+.content-title {
+  font-family: Georgia;
+}
+
+
+.content-details a {
+    color: white;
+    font-size: 2em;
+    text-decoration: none;
+}
+
+.fadeIn-bottom {
+    top: 80%
+}
+
+.imagesforhomepage {
+  object-fit: cover;
+  width: 350px;
+  height: 350px;
+}
+
+
+.introblurb, .introblurbp {
+  margin: auto;
+  text-align: center;
+  font-family: Georgia;
+  width: 75%;
+  color: #429EBD;
+}
+
+.introblurb p {
+    text-align: center;
+    color: #429EBD;
+
+}
+
+.resumedoc {
+  margin: auto;
+  text-align: center;
+  width: 75%;
+  height: 1100px;
+}
+
+.resumeblock {
+  margin: auto;
+  text-align: center;
+}
+
+.resp-container {
+    position: relative;
+    overflow: hidden;
+    padding-top: 56.25%;
+    width: 75%;
+}
+
+.resp-iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    border: 0;
+    height: 1100px;
+}
