@@ -922,7 +922,7 @@ height: 300px;
   margin: auto;
   text-align: center;
   width: 75%;
-  height: 1100px;
+  height: 3000px;
 }
 
 .resumeblock {
@@ -935,6 +935,7 @@ height: 300px;
     overflow: hidden;
     padding-top: 56.25%;
     width: 75%;
+    height: 1150px;
 }
 
 .resp-iframe {
@@ -943,5 +944,5 @@ height: 300px;
     left: 0;
     width: 100%;
     border: 0;
-    height: 1100px;
+    height: 3000px;
 }
