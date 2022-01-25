@@ -120,7 +120,7 @@
 }
 
 #coop1arousalModal, #coop2CAAModal, #lowcosttomoModal, #tableModal, #dimsumModal, #solarModal, #gpsModal,
-#phoneModal, #muscleModal, #webportModal, #GogglesModal, #brainscatcoeffModal {
+#phoneModal, #muscleModal, #webportModal, #GogglesModal, #brainscatcoeffModal, #airModal {
   font-family: Georgia;
 }
 
@@ -181,9 +181,7 @@
   float: right;
 }
 
-/*.container-fluid{*/
-/*    width:100%;*/
-/*}*/
+
 .aboutMEtablestyle {
   width: 75%;
   margin-left: auto;
@@ -634,11 +632,13 @@ text-align:top;
 width: 75%;
 }
 
-.projecttitle, .projecttitleLONG {
+.projecttitle, .projecttitleLONG, .modal-title, .modal-header {
 text-align: center;
 color: #429EBD;
 font-family: Georgia;
 }
+
+
 
 .projecttitle2 {
   text-align: center;
@@ -673,16 +673,22 @@ font-family: Georgia;
   }
 
   .imagesforhomepage {
-    padding: 5px;
+    padding-bottom: 5px;
+    padding-top: 5px;
   }
 }
+
 
 .sectionrow {
   padding-bottom: 15px;
   padding-top: 15px;
 }
 
-
+@media (max-width: 768px) {
+  .airimage2 {
+width: 200px;
+  }
+}
 
 .airtestimage {
 display: inline;
@@ -703,6 +709,7 @@ height: 300px;
 
 .tagblock {
   display: block;
+  text-align: center;
 }
 
 .bondingimglarge {
@@ -823,8 +830,8 @@ height: 300px;
 
 /* home page image hover section */
 .content {
+    width: 100%;
     position: relative;
-    width: 90%;
     max-width: 400px;
     margin: auto;
     overflow: hidden
@@ -855,7 +862,7 @@ height: 300px;
 }
 
 .content-image {
-    width: 100%
+  width: 100%
 }
 
 .content-details {
@@ -945,4 +952,16 @@ height: 300px;
     width: 100%;
     border: 0;
     height: 3000px;
+}
+
+
+.tee {
+  display: block;
+ width: auto;
+ max-height: 100%
+}
+
+.full {
+  width:100%;
+  padding: 0px;
 }
