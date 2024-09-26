@@ -594,47 +594,47 @@ body {
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROJECT TITLE ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 @media (min-width: 2600px) {
   .descstyle {
-    font-size: 2.25vw;
+    font-size: 2vw;
   }
 }
 @media (max-width: 2400px) {
   .descstyle {
-    font-size: 1.75vw;
+    font-size: 1.5vw;
   }
 }
 @media (max-width: 1600px) {
   .descstyle {
-    font-size: 1.25vw;
+    font-size: 1vw;
   }
 }
 @media (max-width: 1400px) {
   .descstyle {
-    font-size: 1.75vw;
+    font-size: 1.5vw;
   }
 }
 @media (max-width: 1200px) {
   .descstyle {
-    font-size: 2vw;
+    font-size: 1.75vw;
   }
 }
 @media (max-width: 1000px) {
   .descstyle {
-    font-size: 2vw;
+    font-size: 1.75vw;
   }
 }
 @media (max-width: 900px) {
   .descstyle {
-    font-size: 2.5vw;
+    font-size: 2.25vw;
   }
 }
 @media (max-width: 400px) {
   .descstyle {
-    font-size: 3vw;
+    font-size: 2.75vw;
   }
 }
 @media (max-width: 200px) {
   .descstyle {
-    font-size: 2vw;
+    font-size: 1.75vw;
   }
 }
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ BOTTOM FOOTER ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
