@@ -1,0 +1,625 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>the whole shabang</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> 
+<!-- Javascript --> 
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script> 
+<!-- My CSS stylesheet -->
+<link rel="stylesheet" type="text/css" href="stylesheet.css">
+<!-- My Javascript --> 
+<script src="javascript.js"></script> 
+
+<!-- Stylesheet for the socials icon -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<!-- Stylesheet for the socials icon -->
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<div class="navcontainer">
+  <nav class="navbar navbar-expand-lg"><a class="navbar-brand" href="index.html">Jen Yeo</a>
+    <button class="navbar-toggler custom-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon "></span></button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto ">
+        <li class="nav-item "><a class="nav-link" href="index.html">home</a></li>
+        <li class="nav-item dropdown navlinkactive"><a class="nav-link dropdown-toggle " href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">portfolio</a>
+          <div class="dropdown show">
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink"><a class="dropdown-item " href="professional.html">professional</a><a class="dropdown-item" href="research.html">research</a><a class="dropdown-item" href="personal.html">personal</a><a class="dropdown-item" href="thearchives.html">the archives</a><a class="dropdown-item navlinkactive" href="all.html">the whole shabang</a></div>
+          </div>
+        </li>
+        <li class="nav-item"><a class="nav-link" href="resume.html">resume</a></li>
+        <li class="nav-item"><a class="nav-link" href="aboutme.html">about me</a></li>
+      </ul>
+    </div>
+  </nav>
+</div>
+<body>
+<hr class="hrstyle">
+<div class="projecttitle2div">
+  <h1 class="projecttitle2"> the whole shabang </h1>
+  <h5 class="projecttitle2"> (these are all of my projects listed below) </h5>
+</div>
+<h5 class="projecttitle2"> want to sort by skills? </h5>
+
+<body>
+
+
+	
+<!--https://www.w3schools.com/howto/howto_js_filter_elements.asp-->
+<div id="myBtnContainer">
+  <button class="btn active " onclick="filterSelection('all'); test1()"> show all</button>
+  <button class="btn" onclick="filterSelection('CAD'); test()"> CAD</button>
+  <button class="btn" onclick="filterSelection('Prototyping'); test()" >prototyping</button>
+  <button class="btn" onclick="filterSelection('Testing'); test()" > testing </button>
+  <button class="btn" onclick="filterSelection('Documentation'); test()" > documentation </button>
+  <button class="btn" onclick="filterSelection('Coding'); test()"> coding </button>
+  <button class="btn" onclick="filterSelection('Circuits'); test()" > circuitry and electronics </button>
+  <button class="btn" onclick="filterSelection('Stats'); test()" > statistical analysis </button>
+</div>
+	
+	
+<!--javascript for the buttons --> 
+<script>
+	
+
+	
+	
+	// Add active class to the current button (highlight it)
+var header = document.getElementById("myBtnContainer");
+var btns = header.getElementsByClassName("btn");
+for (var i = 0; i < btns.length; i++) {
+  btns[i].addEventListener("click", function() {
+  var current = document.getElementsByClassName("active");
+  current[0].className = current[0].className.replace(" active", "");
+  this.className += " active";
+  });
+}
+
+	
+function test1() {
+  var x = document.getElementById("myDIV");
+  if (x.style.display === "none") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "none";
+  }
+}
+
+function test() {
+  var x = document.getElementById("myDIV");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "block";
+  }
+}
+	
+</script>
+
+	
+<!--	<button onclick="myFunction()">Try it</button>-->
+
+	
+	
+<div id="myDIV">
+
+  <div class="row col-xl-9 col-lg-9 col-md-9 col-sm-6 col-xs-1 alignrow">
+    <div class="deepdiveskills filterDiv CAD col-lg-1.5 col-md-1.5"> SolidWorks </div>
+    <div class="deepdiveskills filterDiv CAD  col-lg-1.5 col-md-1.5"> OnShape </div>
+    <div class="deepdiveskills filterDiv CAD  col-lg-1.5 col-md-1.5"> Fusion </div>
+    <div class="deepdiveskills filterDiv CAD  col-lg-1.5 col-md-1.5"> Illustrator </div>
+    <div class="deepdiveskills filterDiv CAD  col-lg-1.5 col-md-1.5"> Sketchup </div>
+  </div>
+
+  <div class="row  col-xl-9 col-lg-9 col-md-8 col-sm-6 col-xs-1 alignrow">
+    <div class="deepdiveskills filterDiv Prototyping col-lg-1.5 col-md-1.5 "> laser cutting </div>
+    <div class="deepdiveskills filterDiv Prototyping  col-lg-1.5 col-md-1.5 "> 3D printing (SLA and FDM) </div>
+    <div class="deepdiveskills filterDiv Prototyping  col-lg-1.5 col-md-1.5 "> water jet </div>
+    <div class="deepdiveskills filterDiv Prototyping  col-lg-1.5 col-md-1.5 "> CNC and manual mill </div>
+    <div class="deepdiveskills filterDiv Prototyping  col-lg-1.5 col-md-1.5 "> CNC and manual lathe </div>
+  </div>
+  <div class="row  col-xl-9 col-lg-9 col-md-8 col-sm-6 col-xs-1 alignrow">
+    <div class="deepdiveskills filterDiv Prototyping  col-lg-1.5 col-md-1.5 "> hand power tools </div>
+    <div class="deepdiveskills filterDiv Prototyping  col-lg-1.5 col-md-1.5 "> drill press </div>
+    <div class="deepdiveskills filterDiv Prototyping  col-lg-1.5 col-md-1.5 "> sandblaster </div>
+    <div class="deepdiveskills filterDiv Prototyping  col-lg-1.5 col-md-1.5 "> bandsaws (vertical and horizontal </div>
+    <div class="deepdiveskills filterDiv Prototyping  col-lg-1.5 col-md-1.5 "> table saws </div>
+  </div>
+  <div class="row  col-xl-9 col-lg-9 col-md-8 col-sm-6 col-xs-1 alignrow">
+    <div class="deepdiveskills filterDiv Prototyping   col-lg-1.5 col-md-1.5 "> chop/miter saws </div>
+    <div class="deepdiveskills filterDiv Prototyping   col-lg-1.5 col-md-1.5 "> belt sanders </div>
+    <div class="deepdiveskills filterDiv Prototyping   col-lg-1.5 col-md-1.5 "> planars </div>
+    <div class="deepdiveskills filterDiv Prototyping   col-lg-1.5 col-md-1.5 "> sewing machine </div>
+  </div>
+
+  <div class="row col-xl-9 col-lg-9 col-md-9 col-sm-6 col-xs-1  alignrow">
+    <div class="deepdiveskills filterDiv Testing col-lg-1.5 col-md-1.5 "> Instron tensile and compression</div>
+    <div class="deepdiveskills filterDiv Testing  col-lg-1.5 col-md-1.5 "> fixture testing </div>
+    <div class="deepdiveskills filterDiv Testing  col-lg-1.5 col-md-1.5 "> bending characterizations </div>
+    <div class="deepdiveskills filterDiv Testing  col-lg-1.5 col-md-1.5 "> puncture force characterizations </div>
+  </div>
+
+  <div class="row col-xl-9 col-lg-9 col-md-9 col-sm-6 col-xs-1 alignrow ">
+    <div class="deepdiveskills filterDiv Documentation col-lg-1.5 col-md-1.5 "> technical drawings</div>
+    <div class="deepdiveskills filterDiv Documentation  col-lg-1.5 col-md-1.5 "> test method characterizations </div>
+  </div>
+
+  <div class="row col-xl-9 col-lg-9 col-md-9 col-sm-6 col-xs-1 alignrow ">
+    <div class="deepdiveskills filterDiv Coding col-lg-1.5 col-md-1.5 "> MATLAB</div>
+    <div class="deepdiveskills filterDiv Coding  col-lg-1.5 col-md-1.5 "> Python </div>
+    <div class="deepdiveskills filterDiv Coding  col-lg-1.5 col-md-1.5 "> HTML </div>
+    <div class="deepdiveskills filterDiv Coding  col-lg-1.5 col-md-1.5 "> CSS </div>
+    <div class="deepdiveskills filterDiv Coding  col-lg-1.5 col-md-1.5 "> Linux environment </div>
+    <div class="deepdiveskills filterDiv Coding  col-lg-1.5 col-md-1.5 "> image processing </div>
+  </div>
+
+  <div class="row col-xl-9 col-lg-9 col-md-9 col-sm-6 col-xs-1 alignrow ">
+    <div class="deepdiveskills filterDiv Circuits col-lg-1.5 col-md-1.5 "> Arduino </div>
+    <div class="deepdiveskills filterDiv Circuits  col-lg-1.5 col-md-1.5 "> EAGLE </div>
+  </div>
+
+  <div class="row col-xl-9 col-lg-9 col-md-9 col-sm-6 col-xs-1  alignrow">
+    <div class="deepdiveskills filterDiv Stats col-lg-1.5 col-md-1.5 "> statistical analysis </div>
+  </div>
+
+  </div>
+
+
+	
+<!--image and video gallery--> 
+<!-- Photo Grid-->
+
+<div class="container ">
+  <div class="row">
+    <div class="col-lg-4 col-md-6 column filterDiv CAD Prototyping">
+      <div class="portfolioimgborder center"> <a href="NDS_alignmentplates.html"> <img src="media/MRL/bellowalignmentplates/AP_render.png" alt="Image of Goggles STL" class="projectimage">
+        <div class="tagblock"> <span class="descstyle">alignment plates for bellow fabrication</span> </div>
+        </a>
+        <hr class="shortHRstyle">
+        <div class="tags">
+          <div class="skills-tag">OnShape</div>
+          &nbsp;
+          <div class="skills-tag">Fusion</div>
+          &nbsp;
+          <div class="skills-tag">GibbsCAM</div>
+          &nbsp;
+          <div class="skills-tag">CNC mill</div>
+          &nbsp;
+          <div class="skills-tag">drill press</div>
+          &nbsp; </div>
+      </div>
+    </div>
+    <div class="col-lg-4 col-md-6 column filterDiv CAD Testing Documentation">
+      <div class="portfolioimgborder center"> <a href="cyclicbend.html"> <img src="media/abiomed/abiomed14.png" alt="Image of cyclic bend fixture CAD" class="projectimage">
+        <div class="tagblock"> <span class="descstyle">anatomical bend fixture</span> </div>
+        </a>
+        <hr class="shortHRstyle">
+        <div class="tags">
+          <div class="skills-tag">SOLIDWORKS</div>
+          &nbsp;
+          <div class="skills-tag">technical 2D drawings for large assemblies with tolerances</div>
+          <div class="skills-tag">machine shop manufacturing and tool use</div>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-4 col-md-6 column filterDiv CAD Prototyping Testing">
+      <div class="portfolioimgborder center"> <a href="AirPermeability.html"> <img src="media/distal/air1.png" alt="Image of Air Permeability Tester" class="projectimage ">
+        <div class="tagblock"> <span class="descstyle">air permeability tester</span> </div>
+        </a>
+        <hr class="shortHRstyle">
+        <div class="tags">
+          <div class="skills-tag">SOLIDWORKS</div>
+          &nbsp;
+          <div class="skills-tag">3D printing</div>
+          &nbsp;
+          <div class="skills-tag"> testing and fixture design </div>
+          &nbsp;
+          <div class="skills-tag"> machine shop manufacturing and tool use</div>
+        </div>
+      </div>
+    </div>
+
+	
+    <div class="col-lg-4 col-md-6 column filterDiv CAD Prototyping Coding Testing">
+      <div class="portfolioimgborder center"> <a href="NDS_bendtests.html"> <img src="media/MRL/bendtest/final.png" alt="Image of needle deployment system benchtop characterizations" class="projectimage">
+        <div class="tagblock"> <span class="descstyle">needle deployment system benchtop characterizations </span> </div>
+        </a>
+        <hr class="shortHRstyle">
+        <div class="tags">
+          <div class="skills-tag">OnShape</div>
+          &nbsp;
+          <div class="skills-tag">Illustrator</div>
+          &nbsp;
+          <div class="skills-tag">laser cutter</div>
+          &nbsp;
+          <div class="skills-tag">Python and image processing</div>
+          &nbsp;
+          <div class="skills-tag">MATLAB</div>
+          <br>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-4 col-md-6 column filterDiv CAD Prototyping Coding Circuits">
+      <div class="portfolioimgborder center"> <a href="goggles.html"> <img src="media/gogglesstlimg.png" alt="Image of Goggles STL" class="projectimage">
+        <div class="tagblock "> <span class="descstyle">visual stimulus goggles for mri</span> </div>
+        </a>
+        <hr class="shortHRstyle">
+        <div class="tags">
+          <div class="skills-tag">SOLIDWORKS</div>
+          &nbsp;
+          <div class="skills-tag">EAGLE</div>
+          &nbsp;
+          <div class="skills-tag">ARDUINO</div>
+          &nbsp;
+          <div class="skills-tag">electromechanical design for ultra-high field MRI</div>
+          &nbsp; </div>
+      </div>
+    </div>
+    <div class="col-lg-4 col-md-6 column filterDiv CAD Prototyping">
+      <div class="portfolioimgborder center"> <a href="simuse.html"> <img src="media/distal/simusewholecad.png" alt="Image of Sim-Use Fixturing CAD" class="projectimage"
+                     id="arousalhrfImg">
+        <div class="tagblock"> <span class="descstyle">simulated use fixturing</span> </div>
+        </a>
+        <hr class="shortHRstyle">
+        <div class="tags">
+          <div class="skills-tag">SOLIDWORKS</div>
+          &nbsp;
+          <div class="skills-tag">3D printing</div>
+          &nbsp;
+          <div class="skills-tag">laser cutting</div>
+          &nbsp;
+          <div class="skills-tag">snap-fits, cavity, and T-slot designs</div>
+          &nbsp; </div>
+      </div>
+    </div>
+    
+    <!--
+  </div>
+  <div class="row">
+-->
+    <div class="col-lg-4 col-md-6 column filterDiv CAD Prototyping Testing">
+      <div class="portfolioimgborder center"> <a href="abiomedwatertank.html"> <img src="media/abiomed/watertank.png" alt="Image of instron water tank fixture" class="projectimage">
+        <div class="tagblock"> <span class="descstyle">instron adapter for heated water bath</span> </div>
+        </a>
+        <hr class="shortHRstyle">
+        <div class="tags">
+          <div class="skills-tag">SOLIDWORKS</div>
+          &nbsp;
+          <div class="skills-tag">Instron tensile testing</div>
+          &nbsp;
+          <div class="skills-tag">3D printing</div>
+          &nbsp;
+          <div class="skills-tag">testing and fixture design</div>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-4 col-md-6 column filterDiv CAD Prototyping Testing">
+      <div class="portfolioimgborder center"> <a href="abiomedforcetesting.html"> <img src="media/abiomed/abiomed3.png" alt="Image of force testing fixture CAD" class="projectimage">
+        <div class="tagblock"> <span class="descstyle">tensile, compression, and torque force testing fixtures </span> </div>
+        </a>
+        <hr class="shortHRstyle">
+        <div class="tags">
+          <div class="skills-tag">SOLIDWORKS</div>
+          &nbsp;
+          <div class="skills-tag">3D printing</div>
+          &nbsp;
+          <div class="skills-tag">Instron tensile and compression testing</div>
+          &nbsp;
+          <div class="skills-tag">test method characterization</div>
+          &nbsp; </div>
+      </div>
+    </div>
+    <div class="col-lg-4 col-md-6 column filterDiv CAD Prototyping">
+      <div class="portfolioimgborder center"> <a href="bonding.html"> <img src="media/distal/bondingcad2.png" alt="Image of CAD of UV Curing Bonding Fixture" class="projectimage">
+        <div class="tagblock"> <span class="descstyle">uv curing fixture</span> </div>
+        </a>
+        <hr class="shortHRstyle">
+        <div class="tags">
+          <div class="skills-tag">SOLIDWORKS</div>
+          &nbsp;
+          <div class="skills-tag">technical drawings</div>
+          &nbsp;
+          <div class="skills-tag">laser cutting</div>
+          &nbsp;
+          <div class="skills-tag">snap fit designs</div>
+          &nbsp; </div>
+      </div>
+    </div>
+    
+    <!--  </div>--> 
+    <!--  <div class="row">-->
+    
+    <div class="col-lg-4 col-md-6 column filterDiv CAD Prototyping Testing">
+      <div class="portfolioimgborder center"> <a href="predv.html"> <img src="media/distal/predv_accad1.png" alt="Image of one pre-dv force testing fixture" class="projectimage"
+                     id="muscleSMALLimage">
+        <div class="tagblock"> <span class="descstyle">pre-dv force testing fixturing</span> </div>
+        </a>
+        <hr class="shortHRstyle">
+        <div class="tags">
+          <div class="skills-tag">SOLIDWORKS</div>
+          &nbsp;
+          <div class="skills-tag">3D printing</div>
+          &nbsp;
+          <div class="skills-tag">laser cutting</div>
+          &nbsp;
+          <div class="skills-tag">force measurements</div>
+          &nbsp; </div>
+      </div>
+    </div>
+    <div class="col-lg-4 col-md-6 column filterDiv CAD Prototyping">
+      <div class="portfolioimgborder center"> <a href="pressfit.html"> <img src="media/distal/pressfit_real04b.JPG" alt="Image of Press Fit Fixture" class="projectimage">
+        <div class="tagblock"> <span class="descstyle">press fit fixturing</span> </div>
+        </a>
+        <hr class="shortHRstyle">
+        <div class="tags">
+          <div class="skills-tag">SOLIDWORKS</div>
+          &nbsp;
+          <div class="skills-tag">3D Printing</div>
+          &nbsp;
+          <div class="skills-tag">Optical Measurement Machine (OMM) </div>
+          &nbsp;
+          <div class="skills-tag">design for device assembly</div>
+          &nbsp; </div>
+      </div>
+    </div>
+    <div class="col-lg-4 col-md-6 column filterDiv CAD Prototyping Testing Documentation">
+      <div class="portfolioimgborder center"> <a href="abiomedCtensile.html"> <img src="media/abiomed/abiomed6.png" alt="Image of tensile test fixture CAD" class="projectimage">
+        <div class="tagblock"> <span class="descstyle">tensile testing fixture</span> </div>
+        </a>
+        <hr class="shortHRstyle">
+        <div class="tags">
+          <div class="skills-tag">SOLIDWORKS</div>
+          &nbsp;
+          <div class="skills-tag">technical drawings</div>
+          &nbsp;
+          <div class="skills-tag">documentation</div>
+          &nbsp;
+			<div class="skills-tag">Instron tensile testing</div>
+          &nbsp;
+          <div class="skills-tag">test method development</div>
+        </div>
+      </div>
+    </div>
+    
+    
+    <div class="col-lg-4 col-md-6 column filterDiv CAD Prototyping Testing">
+      <div class="portfolioimgborder center"> <a href="abiomedfixationfixtures.html"> <img src="media/abiomed/abiomed2.png" alt="Image of Fixation Fixture CAD" class="projectimage"
+                     id="arousalhrfImg">
+        <div class="tagblock"> <span class="descstyle"> device fixation fixtures for a human torso model</span> </div>
+        </a>
+        <hr class="shortHRstyle">
+        <div class="tags">
+          <div class="skills-tag">SOLIDWORKS</div>
+          &nbsp;
+          <div class="skills-tag">3D printing</div>
+          &nbsp;
+          <div class="skills-tag">testing and fixture design</div>
+          &nbsp;
+          <div class="skills-tag">machine shop manufacturing and tool use</div>
+          &nbsp; </div>
+      </div>
+    </div>
+    <div class="col-lg-4 col-md-6 column filterDiv Coding Stats">
+      <div class="portfolioimgborder center"> <a href="cdd.html"> <img src="media/CAAfig1A.png" alt="Image of Dim Sum Pattern" class="projectimage">
+        <div class="tagblock"> <span class="descstyle">cortical-depth-dependent vascular responses in cerebral amyloid angiopathy</span> </div>
+        </a>
+        <hr class="shortHRstyle">
+        <div class="tags">
+          <div class="skills-tag">MATLAB</div>
+          &nbsp;
+          <div class="skills-tag">Linux environment</div>
+          &nbsp;
+          <div class="skills-tag">statistical analysis and basic signal processing</div>
+          &nbsp; </div>
+      </div>
+    </div>
+    <div class="col-lg-4 col-md-6 column filterDiv Coding Stats">
+      <div class="portfolioimgborder center" > <a href="hrf.html"> <img src="media/arousal10.png" alt="Image of Arousal HRF" class="projectimage" id="arousalhrfImg">
+        <div class="tagblock"> <span class="descstyle">modulation of arousal levels on stimulus-driven hemodynamic responses</span> </div>
+        </a>
+        <hr class="shortHRstyle">
+        <div class="tags">
+          <div class="skills-tag">MATLAB</div>
+          &nbsp;
+          <div class="skills-tag">Linux environment</div>
+          &nbsp;
+          <div class="skills-tag">statistical analysis and basic signal processing</div>
+          &nbsp; </div>
+      </div>
+    </div>
+    
+    <!--
+  </div>
+
+
+  <div class="row">
+-->
+    <div class="col-lg-4 col-md-6 column filterDiv CAD MachineShop">
+      <div class="portfolioimgborder"> <a href="woodenendtable.html"> <img src="media/endtable/woodenendtable1.png" alt="Image of wooden end table CAD" class="projectimage">
+        <div class="tagblock"> <span class="descstyle">in progress: wooden end table</span> </div>
+        </a>
+        <hr class="shortHRstyle">
+        <div class="tags">
+          <div class="skills-tag">Onshape</div>
+          &nbsp;
+          <div class="skills-tag">chop saw</div>
+          &nbsp;
+          <div class="skills-tag">vertical bandsaw</div>
+          &nbsp;
+          <div class="skills-tag">joiner</div>
+          &nbsp;
+          <div class="skills-tag">planar</div>
+          &nbsp;
+          <div class="skills-tag">belt sander</div>
+          &nbsp;
+          <div class="skills-tag">manual mill</div>
+          &nbsp; </div>
+      </div>
+    </div>
+    <div class="col-lg-4 col-md-6 column filterDiv CAD Prototyping MachineShop">
+      <div class="portfolioimgborder"> <a href="lightsaberdisplay.html"> <img src="media/WBDAY.JPG" alt="Image of Lightsaber Display Stand" class="projectimage">
+        <div class="tagblock"> <span class="descstyle">lightsaber display stand</span> </div>
+        </a>
+        <hr class="shortHRstyle">
+        <div class="tags">
+          <div class="skills-tag">Onshape</div>
+          &nbsp;
+          <div class="skills-tag">water jetting</div>
+          &nbsp;
+          <div class="skills-tag">laser cutting </div>
+          &nbsp;
+          <div class="skills-tag">vertical bandsaw</div>
+          &nbsp;
+          <div class="skills-tag"> sheet metal bending brake </div>
+          &nbsp; </div>
+      </div>
+    </div>
+    <div class="col-lg-4 col-md-6 column filterDiv Coding">
+      <div class="portfolioimgborder"> <a href="thiswebsite.html"> <img src="media/thiswebsite1.png" alt="Image of this website" class="projectimage">
+        <div class="tagblock"> <span class="descstyle">this website!</span> </div>
+        </a>
+        <hr class="shortHRstyle">
+        <div class="tags">
+          <div class="skills-tag">HTML</div>
+          &nbsp;
+          <div class="skills-tag">CSS</div>
+          &nbsp;
+          <div class="skills-tag">Javascript</div>
+          &nbsp; </div>
+      </div>
+    </div>
+    <!--
+    </div>
+	
+  <div class="row ">
+-->
+    <div class="col-lg-4 col-md-6 column filterDiv Coding Circuits ">
+      <div class="portfolioimgborder"> <a href="muscle.html"> <img src="media/muscle2.png" alt="Image of Wireless Muscle Sensor Bike Signal Prototype" class="projectimage" id="muscleSMALLimage">
+        <div class="tagblock"> <span class="descstyle">wireless muscle sensor bike signal</span> </div>
+        </a>
+        <hr class="shortHRstyle">
+        <div class="tags">
+          <div class="skills-tag">ARDUINO</div>
+          &nbsp;
+          <div class="skills-tag">myoelectric control system</div>
+          &nbsp;
+          <div class="skills-tag">wireless control w/ XBEEs</div>
+          &nbsp; </div>
+      </div>
+    </div>
+    <div class="col-lg-4 col-md-6 column filterDiv CAD MachineShop">
+      <div class="portfolioimgborder"> <a href="table.html"> <img src="media/table.jpeg" alt="Image of Myanmar Coffee Table" class="projectimage" id="image1">
+        <div class="tagblock"> <span class="descstyle">myanmar coffee table</span> </div>
+        </a>
+        <hr class="shortHRstyle">
+        <div class="tags">
+          <div class="skills-tag">Sketchup</div>
+          &nbsp;
+          <div class="skills-tag">CNC mill</div>
+          &nbsp;
+          <div class="skills-tag"> table saw </div>
+          &nbsp;
+          <div class="skills-tag"> vertical bandsaw </div>
+          &nbsp;
+          <div class="skills-tag"> laser cutting</div>
+          &nbsp; </div>
+      </div>
+    </div>
+    <div class="col-lg-4 col-md-6 column filterDiv CAD Prototyping Coding Circuits">
+      <div class="portfolioimgborder"> <a href="solar.html"> <img src="media/solarfinal.png" alt="Image of Solar Powered USB Charger" class="projectimage">
+        <div class="tagblock"> <span class="descstyle">solar powered usb charger and flashlight</span> </div>
+        </a>
+        <hr class="shortHRstyle">
+        <div class="tags">
+          <div class="skills-tag">Sketchup</div>
+          &nbsp;
+          <div class="skills-tag">3D printing (FDM)</div>
+          &nbsp;
+          <div class="skills-tag">ARDUINO</div>
+          &nbsp; </div>
+      </div>
+    </div>
+    <!--
+	    </div>
+  <div class="row">
+-->
+    <div class="col-lg-4 col-md-6 column filterDiv Coding Prototyping">
+      <div class="portfolioimgborder"> <a href="dimsum.html"> <img src="media/dimsumbag.png" alt="Image of Solar Powered USB Charger" class="projectimage">
+        <div class="tagblock"> <span class="descstyle">p5.js coded dim sum drawstring bag</span> </div>
+        </a>
+        <hr class="shortHRstyle">
+        <div class="tags">
+          <div class="skills-tag">p5.JS </div>
+          &nbsp;
+          <div class="skills-tag">sewing</div>
+          &nbsp; </div>
+      </div>
+    </div>
+    <div class="col-lg-4 col-md-6 column filterDiv Coding">
+      <div class="portfolioimgborder"> <a href="lowcosttomo.html"> <img src="media/lowcostdrawing2.png" alt="Image of Camera" class="projectimage">
+        <div class="tagblock"> <span class="descstyle">lowcost tomography</span> </div>
+        </a>
+        <hr class="shortHRstyle">
+        <div class="tags">
+          <div class="skills-tag">MATLAB</div>
+          &nbsp;
+      </div>
+    </div>
+	</div>
+    <div class="col-lg-4 col-md-6 column filterDiv Coding">
+      <div class="portfolioimgborder"> <a href="brainscatteringcoefficient.html"> <img src="media/braindrawing2.png" alt="Image of Brain Drawing" class="projectimage">
+        <div class="tagblock"> <span class="descstyle">brain: scattering coefficient mismatch</span> </div>
+        </a>
+        <hr class="shortHRstyle">
+        <div class="tags">
+          <div class="skills-tag">MATLAB</div>
+          &nbsp;
+      </div>
+    </div>
+		</div>
+    <!--
+    </div>
+	
+	 <div class="row">
+-->
+    <div class="col-lg-4 col-md-6 column filterDiv Coding Circuits">
+      <div class="portfolioimgborder"> <a href="gps.html"> <img src="media/gpstime.png" alt="Image of iPhone 6 Minimalist Microscope Attachment" class="projectimage">
+        <div class="tagblock"> <span class="descstyle">gps led watch</span> </div>
+        </a>
+        <hr class="shortHRstyle">
+        <div class="tags">
+          <div class="skills-tag">Arduino</div>
+          &nbsp;
+          <div class="skills-tag">Neopixel LED Ring</div>
+          &nbsp;
+          <div class="skills-tag">GPS module</div>
+          &nbsp; </div>
+      </div>
+    </div>
+    <div class="col-lg-4 col-md-6 column filterDiv Coding Circuits"> </div>
+    <div class="col-lg-4 col-md-6 column filterDiv Coding Circuits"> </div>
+  </div>
+</div>
+<br>
+	
+<div class="toparrow">
+
+      <div class="bottomnavarrows">	<a href="all.html" class = "linkforbottomnav"> to the top </a></div>
+</div>
+	
+	
+	
+<hr class="hrstyle">
+<table class="footertablestyle">
+  <tr>
+    <td class="copyrightstyle"><p class="copyrightstyle">Copyright © Jen Yeo 2024</p></td>
+    <td class="socialsStyle"><a href="https://www.linkedin.com/in/jenyeo/" target="_blank"> <i class="fa fa-linkedin-square" style="font-size:24px"></i></a></td>
+  </tr>
+</table>
+</body>
+</html>

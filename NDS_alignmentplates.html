@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>alignment plates for bellows</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <!-- Javascript -->
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+  <!-- My CSS stylesheet -->
+  <link rel="stylesheet" type="text/css" href="stylesheet.css">
+  <!-- My Javascript -->
+  <script src="javascript.js"></script>
+
+<!-- Stylesheet for the socials icon -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<!-- Stylesheet for the socials icon -->
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<div class="navcontainer">
+  <nav class="navbar navbar-expand-lg"><a class="navbar-brand" href="index.html">Jen Yeo</a>
+    <button class="navbar-toggler custom-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon "></span></button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto ">
+        <li class="nav-item ">
+			<a class="nav-link" href="index.html">home</a>
+		</li>
+        <li class="nav-item dropdown navlinkactive">
+			<a class="nav-link dropdown-toggle " href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">portfolio</a>
+          <div class="dropdown show">
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+				<a class="dropdown-item " href="professional.html">professional</a>
+				<a class="dropdown-item navlinkactive" href="research.html">research</a>
+				<a class="dropdown-item" href="personal.html">personal</a>
+				<a class="dropdown-item" href="thearchives.html">the archives</a>
+				<a class="dropdown-item" href="all.html"> the whole shabang</a>
+			  </div>
+          </div>
+        </li>
+        <li class="nav-item"><a class="nav-link" href="resume.html">resume</a></li>
+        <li class="nav-item"><a class="nav-link" href="aboutme.html">about me</a></li>
+      </ul>
+    </div>
+  </nav>
+</div>
+
+
+
+
+<body class="bodyfont">
+
+  <hr class="hrstyle">
+
+  <div>
+    <h1 class="projecttitle">  alignment plates for bellow fabrication  </h1>
+  </div>
+
+
+  <!-- Responsive Grid -->
+  <div class="container col-xl-10 col-lg-10 col-md-10 col-sm-10 col-xs-10">
+    <div class="row sectionrow">
+      <div class="col-xl-6 col-lg-5 col-md-10 col-sm-10 col-xs-10 align-self-start">
+        <h3 class="sectitle">Problem </h3>
+        <p class="sectionconent">
+          	The bellows are fabricated using a layer by layer stacking process (Figure 1). Each layer must be alignned accurately and precisely to avoid bonding failure. The team has adapted the current bellow design to be able to use alignment plates from other projects - these plates end in many misalignments and bonding failures of the bellows (Figure 3). </p>
+        <br>
+
+        <h3 class="sectitle">Objective </h3>
+        <p class="sectionconent">
+         	To design and manufacture custom alignment plates to align the layers of the bellows more precisely,  accurately, and consistently. 
+        </p>
+
+
+   <h3 class="sectitle"> Skills Employed </h3>
+        <ul class="sectionconent">
+          <li> Onshape 3D CAD model</li>
+          <li> GibbsCAM</li>
+          <li> CNC Milling </li>
+          <li> Drill Press </li>
+        </ul>
+
+		</div>
+		 <div class="col-xl-6 col-lg-5 col-md-10 col-sm-10 col-xs-10 align-self-center ">
+        <img src="media/MRL/bellowalignmentplates/AP_render2.png" alt="Image of Goggles STL" class="airimgsm img-fluid ">
+		            <h6 class = "imagecaptions"> Figure 1. Film Layering Process for Bellow Fabrication </h6>
+			 
+			  <img src="media/MRL/bellowalignmentplates/AP4.JPG" alt="Image of Goggles STL" class="airimgsm img-fluid">
+		            <h6 class = "imagecaptions"> Figure 2. Alignment Plates for Bellow Fabrication </h6>
+      </div>
+   
+		
+    </div>
+  </div>
+
+  <hr class="hrstyle">
+  <div class="container col-xl-10 col-lg-10 col-md-10 col-sm-10 col-xs-10">
+    <div class="row sectionrow">
+      <div class="col-xl-6 col-lg-5 col-md-10 col-sm-10 col-xs-10 align-self-start">
+        <h3 class="sectitle">Approach </h3>
+        <p class="sectionconent">
+         
+			This was previously worked on by PhD Student Daniel Van Lewen where he developed a 3mm scale soft robotic bronchoscope that included a stabilization mechanism, steering capabilities, and a needle deployment system to collect a biopsies (Van Lewen et al., 2023, Advanced Intelligent Systems). 
+
+			
+			The primary goal was to increase the accuracy and precision of the fabrication process. First, I wanted to redesign the film layers in order to increasse the number of points of constraint from two (Figure 3) to four points (Figure 5). Secondly, with the previous process, each film was designed to allow for fabrication of three bellows at a time. However, at milimeter scale, it was difficult to align the layers with just two points of constraint - tyring to align one bellow would misalign the others. There were many failed bellows with this process. Therefore the updated film design allowed for only one bellow to be aligned at a time (per film sheet). 
+ 			
+          <br><br>
+         For the aluminum alignment plate design, I created multiple hole patterns to allow for layering/fabrication of more than one bellow (Figure 5). In the previous fixture, we noticed that the top and bottom alignment plates were difficult to separate after heat/pressure pressing. Therefore, the bottom alignment plate was designed with tabs to help ease in the separation. 
+ 
+		<br><br>
+        Once the CAD model had been designed, GibbsCAM was used to develop the toolpaths for the CNC Mill (Figure 4). 
+			
+		  </p>
+
+     <div class="col-xl-12 col-lg-10 col-md-12 col-sm-10 col-xs-10 align-self-left ">
+      <div class ="row">
+        <div class = "col-xl-6 col-lg-12 col-md-12 col-sm-12 col-xs-12 ">         <img src="media/MRL/bellowalignmentplates/oldAP_1.JPG" alt="Image of Goggles STL" class="goggleimglong img-fluid">
+
+          <h6 class = "imagecaptions"> Figure 3. Old Alignment Plates </h6>
+        </div>
+        <div class = "col-xl-6 col-lg-12 col-md-12 col-sm-12 col-xs-12 ">   <img src="media/MRL/bellowalignmentplates/AP5.JPG" alt="Image of Goggles STL" class="goggleimglong img-fluid">
+
+          <h6 class = "imagecaptions"> Figure 4. GibbsCAM for CNC Milling </h6>
+        </div>
+      </div>
+    </div>
+		  
+
+      </div>
+      <div class="col-xl-6 col-lg-5 col-md-10 col-sm-10 col-xs-10 align-self-center">
+        <img src="media/MRL/bellowalignmentplates/AP_render.png" alt="Image of Goggles PCB Layout" class="airimglong img-fluid">
+		  		            <h6 class = "imagecaptions"> Figure 5. CAD Rendering of Bellow Fabrication Process </h6>
+
+      
+      </div>
+    </div>
+  </div>
+  <hr class="hrstyle">
+
+  <div class="container col-xl-10 col-lg-10 col-md-10 col-sm-10 col-xs-10">
+    <div class="row sectionrow">
+      <div class="col-xl-5 col-lg-5 col-md-10 col-sm-10 col-xs-10 align-self-start">
+        <h3 class="sectitle"> Results </h3>
+        <p class="sectionconent">
+          The updated film design and the new alignment plates work well to align the film layers and have led to more successful bellows. 
+        </p>
+      </div>
+		 <div class="col-xl-5 col-lg-5 col-md-10 col-sm-10 col-xs-10 align-self-center">
+        <img src="media/MRL/bellowalignmentplates/AP4.JPG" alt="Image of Goggles STL" class="airimglong img-fluid">
+		            <h6 class = "imagecaptions"> Figure 2. Alignment Plates for Bellow Fabrication </h6>
+
+      </div>
+    </div>
+  </div>
+
+
+<div class="toparrow">
+
+      <div class="bottomnavarrows">	<a href="NDS_alignmentplates.html" class = "linkforbottomnav"> to the top </a></div>
+	      <div class="bottomnavarrows">	<a href="research.html" class = "linkforbottomnav"> research </a></div>
+	      <div class="bottomnavarrows">	<a href="all.html" class = "linkforbottomnav"> the whole shabang </a></div>
+</div>
+	
+
+<hr class="hrstyle">
+
+<table class="footertablestyle">
+  <tr>
+    <td class="copyrightstyle"><p class="copyrightstyle">Copyright © Jen Yeo 2024</p></td>
+    <td class="socialsStyle"><a href="https://www.linkedin.com/in/jenyeo/" target="_blank"> <i class="fa fa-linkedin-square" style="font-size:24px"></i></a></td>
+  </tr>
+</table>
+</body>
+</html>

@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Press-Fit Fixture</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <!-- Javascript -->
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+  <!-- My CSS stylesheet -->
+  <link rel="stylesheet" type="text/css" href="stylesheet.css">
+  <!-- My Javascript -->
+  <script src="javascript.js"></script>
+
+<!-- Stylesheet for the socials icon -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<!-- Stylesheet for the socials icon -->
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<div class="navcontainer">
+  <nav class="navbar navbar-expand-lg"><a class="navbar-brand" href="index.html">Jen Yeo</a>
+    <button class="navbar-toggler custom-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon "></span></button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto ">
+        <li class="nav-item ">
+			<a class="nav-link" href="index.html">home</a>
+		</li>
+        <li class="nav-item dropdown navlinkactive">
+			<a class="nav-link dropdown-toggle " href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">portfolio</a>
+          <div class="dropdown show">
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+				<a class="dropdown-item navlinkactive" href="professional.html">professional</a>
+				<a class="dropdown-item" href="research.html">research</a>
+				<a class="dropdown-item" href="personal.html">personal</a>
+				<a class="dropdown-item" href="thearchives.html">the archives</a>
+				<a class="dropdown-item" href="all.html"> the whole shabang</a>
+			  </div>
+          </div>
+        </li>
+        <li class="nav-item"><a class="nav-link" href="resume.html">resume</a></li>
+        <li class="nav-item"><a class="nav-link" href="aboutme.html">about me</a></li>
+      </ul>
+    </div>
+  </nav>
+</div>
+
+
+<body class="bodyfont">
+
+  <hr class="hrstyle">
+
+  <div>
+    <h1 class="projecttitle"> press-fit fixture </h1>
+  </div>
+
+
+  <!-- Responsive Grid -->
+  <div class="container col-xl-10 col-lg-10 col-md-10 col-sm-10 col-xs-10">
+    <div class="row sectionrow">
+      <div class="col-xl-6 col-lg-5 col-md-10 col-sm-10 col-xs-10 align-self-start ">
+        <h3 class="sectitle">Problem </h3>
+        <p class="sectionconent">
+          A component required a fixture to consistently, quickly, and, accurately press-fit dowels.
+        </p>
+
+        <br>
+        <h3 class="sectitle">Objective </h3>
+        <p class="sectionconent">
+          To design and build fixtures that can easily and securely hold the components in place, align the dowels, and press-fit the dowels until the natural stopping point in the component.
+        </p>
+		  
+		  <h3 class="sectitle"> Skills Employed </h3>
+        <ul class="sectionconent">
+          <li> SOLIDWORKS 3D CAD model and 2D drawings with tolerances</li>
+          <li> 3D Printing SLA/FDM </li>
+          <li> Machine shop manufacturing and tool use (drills, sanding) </li>
+          <li> Working with dowel pins, arbor press, optical measuring machine (OMM) </li>
+          <li> Testing fixture design/mechanical testing </li>
+        </ul>
+
+		  
+		  
+      </div>
+      <div class="col-xl-6 col-lg-5 col-md-10 col-sm-10 col-xs-10  align-self-center ">
+        <img src="media/distal/pressfit_real04b.JPG" alt="Image of Air Permeability Tester" class="fourbyfourimg">
+		    <h6 class = "imagecaptions"> Figure 1. Fabricated Press Fit Fixture - With Arbor Press Adaptor </h6>
+      </div>
+		
+		
+    </div>
+  </div>
+
+  <hr class="hrstyle">
+
+
+  <div class="container col-xl-10 col-lg-10 col-md-10 col-sm-10 col-xs-10">
+    <div class="row sectionrow">
+      <div class="col-xl-6 col-lg-5 col-md-10 col-sm-10 col-xs-10 align-self-start ">
+        <h3 class="sectitle">Approach </h3>
+        <p class="sectionconent">
+          This project was developed to help with subassembly of parts. After working with my co-worker, press-fit designs were made on SOLIDWORKS.
+
+          <br><br>
+          Each press-fit fixture contains a cap that connects to the arbor press, an alignment fixture, and a base fixture where the component securely sits in.
+          <br><br>
+          The arbor press cap was designed to smoothly fit onto the press. The base fixture allowed the components to securely sit in. The alignment fixture allowed for a slip-fit for the dowels while still aligning them upright. To make most parts
+          machinable, I also designed some jogs for the alignment fixture as shown in the image. Using the 2D drawing dimensions, I created a natural stop where the fixture will bottom out leaving the correct length of dowel exposed.
+          <br><br>
+          One problem I came across was SLA printing clear resin. The printed part would increase in height due to the extra resin layer curing during the process. To resolve this, I sanded down the parts and measured them with calipers to reach the
+          desired height.
+          <br><br>
+          Additionally, after inspecting the subassemblies with an initial fixture prototype, the data showed that the dowels were angled in the Y-plane. To fix this issue, I increased the width of the alignment and base fixture such that the press
+          cap would not tilt the dowels.
+          <br><br>
+          After some modifications, the base and alignment fixtures were now FDM printed with ABS and the holes were oversized. But the press cap was SLA printed because it produced more accurate dimensions.
+
+        </p>
+
+        <br>
+
+        
+      </div>
+      <div class="col-xl-6 col-lg-5 col-md-10 col-sm-10 col-xs-10 align-self-center ">
+		  <div class ="row">
+          <div class = "col-xl-6 col-lg-12 col-md-12 col-sm-12 col-xs-12 ">
+                   <img src="media/distal/pressfit1.png" alt="Image of Air Permeability Tester" class="fourbyfourimg">
+
+            <h6 class = "imagecaptions"> Figure 2. 3D CAD Model of Press Fit Fixture - Front View </h6>
+          </div>
+          <div class="col-xl-6 col-lg-12 col-md-12 col-sm-12 col-xs-12 ">
+           <img src="media/distal/pressfit4.png" alt="Image of Air Permeability Tester" class="fourbyfourimg">
+            <h6 class = "imagecaptions"> Figure 3. 3D CAD Model of Press Fit Fixture Cap </h6>
+          </div>
+        </div>
+      <img src="media/distal/pressfit2.png" alt="Image of Air Permeability Tester" class="fourbyfourimg">
+        <h6 class = "imagecaptions"> Figure 4.  3D CAD Model of Press Fit Fixture - ISO View </h6>
+        
+      </div>
+    </div>
+  </div>
+
+
+  <hr class="hrstyle">
+
+
+  <div class="container col-xl-10 col-lg-10 col-md-10 col-sm-10 col-xs-10">
+    <div class="row sectionrow">
+      <div class="col-xl-6 col-lg-5 col-md-10 col-sm-10 col-xs-10 align-self-start">
+        <h3 class="sectitle"> Results </h3>
+        <p class="sectionconent">
+          The press-fit fixtures were successfully created. They allowed for a quick, easy, and accurate way to press-fit the dowels into the components. By designing and implementing a press fit fixture solution, it helped reduce the time to make a
+          subassembly.
+        </p>
+
+      </div>
+      <div class="col-xl-6 col-lg-5 col-md-10 col-sm-10 col-xs-10 align-self-start ">
+		   <div class ="row">
+          <div class = "col-xl-6 col-lg-12 col-md-12 col-sm-12 col-xs-12 ">
+                   <img src="media/distal/pressfit_real02b.JPG" alt="Image of Air Permeability Tester" class="fourbyfourimg">
+
+            <h6 class = "imagecaptions"> Figure 5. Fabricated Press Fit Fixture - Without Arbor Press Adaptor </h6>
+          </div>
+          <div class="col-xl-6 col-lg-12 col-md-12 col-sm-12 col-xs-12 ">
+             <img src="media/distal/pressfit_real04b.JPG" alt="Image of Air Permeability Tester" class="fourbyfourimg">
+            <h6 class = "imagecaptions"> Figure 1. Fabricated Press Fit Fixture - With Arbor Press Adaptor  </h6>
+          </div>
+        </div>
+
+        
+		  
+       
+      
+        
+
+      </div>
+    </div>
+  </div>
+
+  <br>
+
+<br>
+<div class="toparrow">
+
+      <div class="bottomnavarrows">	<a href="pressfit.html" class = "linkforbottomnav"> to the top </a></div>
+	      <div class="bottomnavarrows">	<a href="professional.html" class = "linkforbottomnav"> professional </a></div>
+	      <div class="bottomnavarrows">	<a href="all.html" class = "linkforbottomnav"> the whole shabang </a></div>
+</div>
+	
+	
+<hr class="hrstyle">
+	
+<table class="footertablestyle">
+  <tr>
+    <td class="copyrightstyle"><p class="copyrightstyle">Copyright © Jen Yeo 2024</p></td>
+    <td class="socialsStyle"><a href="https://www.linkedin.com/in/jenyeo/" target="_blank"> <i class="fa fa-linkedin-square" style="font-size:24px"></i></a></td>
+  </tr>
+</table>
+</body>
+</html>

@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>hrf</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <!-- Javascript -->
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+  <!-- My CSS stylesheet -->
+  <link rel="stylesheet" type="text/css" href="stylesheet.css">
+  <!-- My Javascript -->
+  <script src="javascript.js"></script>
+
+<!-- Stylesheet for the socials icon -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<!-- Stylesheet for the socials icon -->
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<div class="navcontainer">
+  <nav class="navbar navbar-expand-lg"><a class="navbar-brand" href="index.html">Jen Yeo</a>
+    <button class="navbar-toggler custom-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon "></span></button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto ">
+        <li class="nav-item ">
+			<a class="nav-link" href="index.html">home</a>
+		</li>
+        <li class="nav-item dropdown navlinkactive">
+			<a class="nav-link dropdown-toggle " href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">portfolio</a>
+          <div class="dropdown show">
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+				<a class="dropdown-item " href="professional.html">professional</a>
+				<a class="dropdown-item navlinkactive" href="research.html">research</a>
+				<a class="dropdown-item" href="personal.html">personal</a>
+				<a class="dropdown-item" href="thearchives.html">the archives</a>
+				<a class="dropdown-item" href="all.html"> the whole shabang</a>
+			  </div>
+          </div>
+        </li>
+        <li class="nav-item"><a class="nav-link" href="resume.html">resume</a></li>
+        <li class="nav-item"><a class="nav-link" href="aboutme.html">about me</a></li>
+      </ul>
+    </div>
+  </nav>
+</div>
+
+
+
+<body class="bodyfont">
+
+  <hr class="hrstyle">
+
+  <div>
+    <h1 class="projecttitleLONG"> modulation of arousal levels on stimulus-driven hemodynamic responses </h1>
+  </div>
+
+
+
+  <!-- Responsive Grid -->
+  <div class="container col-xl-10 col-lg-10 col-md-10 col-sm-10 col-xs-10">
+    <div class="row sectionrow">
+      <div class="col-xl-6 col-lg-5 col-md-10 col-sm-10 col-xs-10  align-self-start">
+
+        <h3 class="sectitle">Problem </h3>
+        <p class="sectionconent">
+          This was one of the projects of my first co-op at
+          Massachusetts General Hospital's Martinos Center for Biomedical Imaging.
+
+          Most often, MRI scans can take upwards of an hour. In that time, it is easy for a person to become drowsy.
+          There had not yet been data and analysis on if there is a difference in hemodynamic response functions between those "drowsy" subjects and more "alert" subjects.
+        </p>
+
+        <br>
+
+        <h3 class="sectitle">Objective </h3>
+        <p class="sectionconent">
+          To characterize arousal modulations shown in the hemodyanmic response function (HRF) in "drowsy" and "alert" subjects.
+
+        </p>
+  <br>
+        <h3 class="sectitle"> Skills Employed </h3>
+        <ul class="sectionconent">
+          <li> MATLAB</li>
+          <li> Linux environment </li>
+        </ul>
+
+      </div>
+      <div class="col-xl-6 col-lg-5 col-md-10 col-sm-10 col-xs-10  align-self-center">
+        <img src="media/arousal5.png" alt="Image of total number of missed cues" class="modalexpandimage3">
+		  	   <h6 class = "imagecaptions"> Figure 1. Table of the total number of missed cues for each subject, and graph of subject 02 during the MRI scan. Graph highlights the switches of the MRI, the task paradigm sections, and the key presses by the subject. </h6>
+      </div>
+    </div>
+  </div>
+
+  <hr class="hrstyle">
+  <div class="container col-xl-10 col-lg-10 col-md-10 col-sm-10 col-xs-10">
+    <div class="row sectionrow">
+      <div class="col-xl-6 col-lg-5 col-md-10 col-sm-10 col-xs-10  align-self-start">
+        <h3 class="sectitle">Approach </h3>
+        <p class="sectionconent">
+        Given behavioral data from previous projects, I developed code in MATLAB to classify arousal levels. After classifying the arousal levels,
+          the derived HRF was compared in the subject, run, and trial level for both alert and drowsy subjects. Essentially I:
+        <ul class="sectionconent">
+          <li> Wrote MATLAB programs to infer subject’s arousal levels based on task behavioral data </li>
+          <li> Characterized and compared hemodynamic changes between high- vs. low-arousal conditions</li>
+        </ul>
+
+        </p>
+
+      
+
+
+      </div>
+
+      <div class="col-xl-6 col-lg-5 col-md-10 col-sm-10 col-xs-10   align-self-center">
+        <p style="text-align:center">
+          <img src="media/arousal3.png" alt="Image of Invalid Key Presses" class="modalexpandimage3">
+			 <h6 class = "imagecaptions"> Table 1. This table highlights the percent of invalid keypresses throughout a single run for all subjects. </h6>
+          <img src="media/arousal4.png" alt="Image of No Keypresses" class="modalexpandimage3">
+		   <h6 class = "imagecaptions"> Table 2. This table highlights the percent of missed keypresses throughout a single run for all subjects. </h6>
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <hr class="hrstyle">
+  <div class="container col-xl-10 col-lg-10 col-md-10 col-sm-10 col-xs-10">
+    <div class="row sectionrow">
+      <div class="col-xl-6 col-lg-5 col-md-10 col-sm-10 col-xs-10  align-self-start ">
+        <h3 class="sectitle"> Results </h3>
+        <p class="sectionconent">
+            The developed MATLAB code successfully characterized compared hemodynamic changes between high- vs. low-arousal conditions.
+        </p>
+
+
+      </div>
+      <div class="col-xl-6 col-lg-5 col-md-10 col-sm-10 col-xs-10  align-self-start ">
+        <p style="text-align:center">
+          <img src="media/arousal1.png" alt="Image of Run Level" class="modalexpandimage3">
+			   <h6 class = "imagecaptions"> Figure 2. Highlights the run level comparisons of the hemodynamic response funciton (HRF) of the drowsy and alert subjects during two types of tasks. </h6>
+          <img src="media/arousal2.png" alt="Image of Trial Level" class="modalexpandimage3">
+        </p>
+		   <h6 class = "imagecaptions"> Figure 3. Highlights the trial level comparisons of the hemodynamic response funciton (HRF) of the drowsy and alert subjects during two types of tasks.  </h6>
+      </div>
+    </div>
+  </div>
+
+
+
+<br>
+<div class="toparrow">
+
+      <div class="bottomnavarrows">	<a href="hrf.html" class = "linkforbottomnav"> to the top </a></div>
+	      <div class="bottomnavarrows">	<a href="research.html" class = "linkforbottomnav"> research </a></div>
+	      <div class="bottomnavarrows">	<a href="all.html" class = "linkforbottomnav"> the whole shabang </a></div>
+</div>
+	
+
+<hr class="hrstyle">
+
+<table class="footertablestyle">
+  <tr>
+    <td class="copyrightstyle"><p class="copyrightstyle">Copyright © Jen Yeo 2024</p></td>
+    <td class="socialsStyle"><a href="https://www.linkedin.com/in/jenyeo/" target="_blank"> <i class="fa fa-linkedin-square" style="font-size:24px"></i></a></td>
+  </tr>
+</table>
+</body>
+</html>

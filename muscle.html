@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>muscle bike sensor</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <!-- Javascript -->
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+  <!-- My CSS stylesheet -->
+  <link rel="stylesheet" type="text/css" href="stylesheet.css">
+  <!-- My Javascript -->
+  <script src="javascript.js"></script>
+
+<!-- Stylesheet for the socials icon -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<!-- Stylesheet for the socials icon -->
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<div class="navcontainer">
+  <nav class="navbar navbar-expand-lg"><a class="navbar-brand" href="index.html">Jen Yeo</a>
+    <button class="navbar-toggler custom-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon "></span></button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto ">
+        <li class="nav-item ">
+			<a class="nav-link" href="index.html">home</a>
+		</li>
+        <li class="nav-item dropdown navlinkactive">
+			<a class="nav-link dropdown-toggle " href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">portfolio</a>
+          <div class="dropdown show">
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+				<a class="dropdown-item " href="professional.html">professional</a>
+				<a class="dropdown-item" href="research.html">research</a>
+				<a class="dropdown-item" href="personal.html">personal</a>
+				<a class="dropdown-item navlinkactive" href="thearchives.html">the archives</a>
+				<a class="dropdown-item" href="all.html"> the whole shabang</a>
+			  </div>
+          </div>
+        </li>
+        <li class="nav-item"><a class="nav-link" href="resume.html">resume</a></li>
+        <li class="nav-item"><a class="nav-link" href="aboutme.html">about me</a></li>
+      </ul>
+    </div>
+  </nav>
+</div>
+
+
+<body class="bodyfont">
+
+  <hr class="hrstyle">
+
+  <div>
+    <h1 class="projecttitle"> Wireless Muscle Sensor Bike Signal Prototype </h1>
+  </div>
+
+	
+	
+  <!-- Responsive Grid -->
+  <div class="container  col-xl-10 col-lg-10 col-md-10 col-sm-10 col-xs-10">
+    <div class="row sectionrow ">
+      <div class="col-xl-6 col-lg-6 col-md-10 col-sm-10 col-xs-10 align-self-start  ">
+        <h3 class="sectitle">Problem </h3>
+        <p class="sectionconent">
+          In the class called Circuits and Electronics: Device Invention,
+           the assignment was to invent something useful that had not already been
+           invented.  
+        </p>
+
+		
+
+		  
+        <br>
+
+        <h3 class="sectitle">Objective </h3>
+        <p class="sectionconent">
+			To create technology that would help amateur bikers have
+           an easier and safer time on the road.
+        </p>
+		  
+		   <h3 class="sectitle"> Skills Employed </h3>
+        <ul class="sectionconent">
+          <li> Arduino</li>
+          <li> Myoelectric control system </li>
+          <li> Wireless control using XBEEs  </li>
+        </ul>
+		  
+      </div>
+      <div class=" col-xl-5 col-lg-5 col-md-10 col-sm-10 col-xs-10 align-self-center ">
+          <img src="media/muscle2.png" alt="Image of Wireless Muscle Sensor Bike Signal Prototype" class="bikeimglong">
+		  		   		   <h6 class = "imagecaptions"> Figure 1. Wireless Muscle Sensor Bike Signal Prototype, Myo Data was between values that signaled a right turn. </h6>
+
+        <img src="media/muscle1.png" alt="Image of Wireless Muscle Sensor Bike Signal Prototype" class="bikeimglong">
+		   		   <h6 class = "imagecaptions"> Figure 2.  Wireless Muscle Sensor Bike Signal Prototype, Myo Data was above the threshold that signaled a left turn.  </h6>
+
+      </div>
+    </div>
+  </div>
+
+  <hr class="hrstyle">
+
+
+  <div class="container col-xl-10 col-lg-10 col-md-10 col-sm-10 col-xs-10">
+    <div class="row sectionrow">
+      <div class="col-xl-6 col-lg-6 col-md-10 col-sm-10 col-xs-10 align-self-start  ">
+        <h3 class="sectitle">Approach </h3>
+        <p class="sectionconent">
+   
+          After reviewing technical data sheets and instructions for use of the Myoware Sensor, I began by selecting a muscle group that would provide a stable reading of values. I tested out the sensor by flexing and trying to retreieve and read the values from the sensor. 
+			<br>
+			For the LED neopixel display, I was able to test out the patterns I could make with the LED display and work with available code to create a moving arrow display!
+			<br>
+			I established a threshold based on my personal data points. I used ranges of values and a threshold to allow for different actions. If the value of the sensor was reading between 300 and 500, the LED grid would signal a right turn. If the value of the sensor was reading above 500, the LED grid would signal a left turn.
+		<br>
+
+        </p>
+ <button type="button" class="btn btn-outline-info">
+          <a href="https://gist.github.com/jenyeo/5bacf697358ca8a719e3f967db875fdd" target="_blank" class = "viewcodeheremuscle">View the Code Here</a>
+        </button> 
+        <br>
+       
+
+      </div>
+      <div class="col-xl-5 col-lg-5 col-md-10 col-sm-10 col-xs-10 align-self-start ">
+		  
+      </div>
+    </div>
+  </div>
+
+  <hr class="hrstyle">
+
+
+  <div class="container  col-xl-10 col-lg-10 col-md-10 col-sm-10 col-xs-10">
+    <div class="row sectionrow ">
+      <div class="col-xl-6 col-lg-5 col-md-10 col-sm-10 col-xs-10 align-self-start ">
+        <h3 class="sectitle"> Results </h3>
+        <p class="sectionconent ">
+         The wireless bike turn signal was successfully prototyped. Looking back, while this is an intriguing idea for a device to help amataur bikers, there are also many areas of improvement. For instance, I believe that another location for the myoware muscle sensor may be more appropriate during cycling - to avoid unwanted actuation of the device. Additionally, since the thresholds were based on my personal data, it would be helpful to either have a calibration step to allow for a larger user population and/or to create a more robust design.
+        </p>
+		     
+      </div>
+      <div class="col-xl-5 col-lg-5 col-md-10 col-sm-10 col-xs-10 align-self-start   ">
+     
+      </div>
+    </div>
+  </div>
+
+	
+	
+	
+<br>
+<div class="toparrow">
+
+      <div class="bottomnavarrows">	<a href="muscle.html" class = "linkforbottomnav"> to the top </a></div>
+	      <div class="bottomnavarrows">	<a href="thearchives.html" class = "linkforbottomnav"> the archives </a></div>
+	      <div class="bottomnavarrows">	<a href="all.html" class = "linkforbottomnav"> the whole shabang </a></div>
+</div>
+	
+<hr class="hrstyle">
+
+<table class="footertablestyle">
+  <tr>
+    <td class="copyrightstyle"><p class="copyrightstyle">Copyright © Jen Yeo 2024</p></td>
+    <td class="socialsStyle"><a href="https://www.linkedin.com/in/jenyeo/" target="_blank"> <i class="fa fa-linkedin-square" style="font-size:24px"></i></a></td>
+  </tr>
+</table>
+</body>
+</html>
